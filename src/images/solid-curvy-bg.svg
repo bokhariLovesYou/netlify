@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3742 1688" width="3742" height="1688" aria-hidden="true">
+  <defs>
+    <linearGradient id="gradient-edge" x1="40.57%" x2="58.82%" y1="26.08%" y2="26.08%">
+      <stop offset="0%" stop-color="#4F005E"></stop>
+      <stop offset="100%" stop-color="#33065B"></stop>
+    </linearGradient>
+    <linearGradient id="gradient-build" x1="59%" x2="40.47%" y1="41.6%" y2="41.6%">
+      <stop offset="0%" stop-color="#210047"></stop>
+      <stop offset="100%" stop-color="#020758"></stop>
+    </linearGradient>
+    <radialGradient id="gradient-pyramid" cx="48.83%" cy="2.82%" r="143.08%" fx="48.83%" fy="2.82%" gradientTransform="matrix(.00246 .64298 -1 .00158 .52 -.29)">
+      <stop offset="0%" stop-color="#00D4C5" stop-opacity=".25"></stop>
+      <stop offset="38.98%" stop-color="#1D97B2" stop-opacity=".5"></stop>
+      <stop offset="78.66%" stop-color="#370065" stop-opacity=".77"></stop>
+      <stop offset="100%" stop-color="#370065" stop-opacity="0"></stop>
+    </radialGradient>
+    <linearGradient id="d" x1="0%" x2="99.99%" y1="50.01%" y2="50.01%">
+      <stop offset="0%" stop-color="#680E88"></stop>
+      <stop offset="100%" stop-color="#01D4C6"></stop>
+    </linearGradient>
+    <linearGradient id="e" x1="0%" x2="99.99%" y1="50.01%" y2="50.01%">
+      <stop offset="0%" stop-color="#680E88"></stop>
+      <stop offset="100%" stop-color="#01D4C6"></stop>
+    </linearGradient>
+    <linearGradient id="f" x1="0%" x2="99.99%" y1="50.01%" y2="50.01%">
+      <stop offset="0%" stop-color="#680E88"></stop>
+      <stop offset="100%" stop-color="#01D4C6"></stop>
+    </linearGradient>
+    <linearGradient id="g" x1="0%" x2="99.99%" y1="50.01%" y2="50.01%">
+      <stop offset="0%" stop-color="#680E88"></stop>
+      <stop offset="100%" stop-color="#01D4C6"></stop>
+    </linearGradient>
+    <linearGradient id="h" x1="0%" x2="99.99%" y1="50.01%" y2="50.01%">
+      <stop offset="0%" stop-color="#680E88"></stop>
+      <stop offset="100%" stop-color="#01D4C6"></stop>
+    </linearGradient>
+    <circle id="i" cx="52.09" cy="51.83" r="51.62"></circle>
+    <circle id="k" cx="52.39" cy="51.95" r="51.62"></circle>
+    <circle id="m" cx="52.59" cy="51.73" r="51.62"></circle>
+    <radialGradient id="o" cx="48.83%" cy="2.82%" r="125.67%" fx="48.83%" fy="2.82%" gradientTransform="scale(1 .7321) rotate(89.84 .48 .03)">
+      <stop offset="0%" stop-color="#00D4C5" stop-opacity=".25"></stop>
+      <stop offset="11.88%" stop-color="#09C1BF" stop-opacity=".33"></stop>
+      <stop offset="21.28%" stop-color="#10B3BB" stop-opacity="0"></stop>
+      <stop offset="100%" stop-color="#370065" stop-opacity="0"></stop>
+    </radialGradient>
+    <radialGradient id="p" cy="0%" r="100.11%" fx="50%" fy="0%" gradientTransform="matrix(0 .9989 -1.152 0 .5 -.5)">
+      <stop offset="0%" stop-color="#20C6B7"></stop>
+      <stop offset="100%" stop-color="#4D9ABF"></stop>
+    </radialGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <path fill="#2d3b41" class="Trinity__g Trinity__g--edge Trinity__g--bg" fill="url(#gradient-edge)" fill-rule="nonzero" d="M1 921h-512v767l512-.17s365.72 11.84 800.48-161.69c263.68-105.25 593.41 42.34 800.73 27.43 181-13.03 178.54-62.07 347.77-91.73 169.23-29.66 276.55 63.38 513.35-67.38 172.6-95.33 491.73 162.5 896.67 231.41 404.94 68.91 777-387.87 841-497.87 42.67-73.33 178.67-142.33 408-207H1z"></path>
+    <path fill="#0e1f26" class="Trinity__g Trinity__g--build Trinity__g--bg" fill="url(#gradient-build)" fill-rule="nonzero" d="M1344 269h3265v880c-425-353-501-179-958-87-304.67 61.33-593.67 90.33-867 87-179.33-25.33-379.67-77.17-601-155.5-221.33-78.34-501-71.5-839 20.5-290.67 68.67-606 83.67-946 45-510-58-784.03 90-909 90V269h1855z"></path>
+    <path class="Trinity__g Trinity__g--dev Trinity__g--bg" fill="#FFF" fill-rule="nonzero" d="M0 0v547.87s365.72 9.33 800.48-127.5c263.68-82.99 525.74 39.28 919.52 18.63 393.78-20.65 318-99.5 623-99.5s570.06-70.84 975-16.5c404.94 54.34 778-236.53 778-323H0z"></path>
+    <path class="Trinity__g spotlight" fill="url(#gradient-pyramid)" fill-rule="nonzero" d="M932 1446l-932 3.49L415.41 0h101.08z" transform="translate(1891 262)"></path>
+    <rect class="Trinity__g Trinity__g--edge Trinity__g--nav" opacity="0" width="100%" height="100" transform="translate(0 980)" fill="url(#gradient-edge)"></rect>
+  </g>
+</svg>
