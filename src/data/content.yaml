@@ -1,0 +1,24 @@
+hero-heading: Netlify Analytics
+hero-paragraph: A new type of application delivery network custom designed for blazing fast sites and modern workflows.
+hero-button-text: Get started for free
+hero-button-url: https://app.netlify.com/signup
+section-two-heading: Global by default. Multi‑cloud by design.
+section-two-subtitle: A global platform with powerful features for managing code and assets.
+section-two-paragraph: Distributed just like a CDN, but with advanced functionality for publishing entire sites and applications. Automate builds to prerender content and deploy worldwide to every major cloud provider—including staging, rollbacks, and even A/B testing.
+section-four-child-one-heading-before: The one dev server
+section-four-child-one-heading-after: that powers it all
+section-four-child-one-paragraph: Imagine the productivity boost of being able to locally test your site generator, API integrations, serverless functions, and edge rules, all in a single development server.
+section-four-child-one-cta-text: Get started in the docs
+section-four-child-one-cta-url: https://app.netlify.com/signup
+section-four-child-two-testimonial: Decoupled web projects involve so many components. The hard part is testing all the pieces locally, together. Netlify Dev delivers this beautifully with one command.
+section-four-child-two-testimonial-image: https://cdn.netlify.com/d8adea775b72d67ebb65fc1470da562cd51ba481/a718f/img/v2/avatars/kent-c-dodds.jpg
+section-four-child-two-testimonial-name: Kent C. Dodds
+section-four-child-three-heading: Be instantly productive
+section-four-child-three-image: https://i.pinimg.com/originals/c3/9b/57/c39b5749ff0e9bb01c07a1af3a10b2af.png
+section-five-heading-before: Test it all together.
+section-five-heading-after: Deploy it all together
+section-five-subheading: Frontend builds. Serverless code. Edge routing logic
+section-five-paragraph: No other service allows you to write and manage everything from a single repository. Version control it together. Test, version control, and deploy it all together.
+section-five-image: https://i.pinimg.com/originals/58/f5/7b/58f57b4232cd9369d446ed35f3024fb9.png
+section-six-heading: Analytics is just the beginning
+section-six-paragraph: 'Next, explore Netlify Build: Power collaboration through Netlify’s Git-based workflow with Deploy Previews, branch testing, and more.'
