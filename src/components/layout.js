@@ -53,11 +53,13 @@ class Layout extends React.Component {
 
   render() {
 
-    if (this.state.header[0].searchClass === 'active' || this.state.header[0].modalClass === 'active') {
-      document.querySelector('html').style.overflow = 'hidden';
-    } else {
-      document.querySelector('html').removeAttribute('style');
-    }
+      if (typeof window !== 'undefined') {
+        if (this.state.header[0].searchClass === 'active' || this.state.header[0].modalClass === 'active') {
+          document.querySelector('html').style.overflow = 'hidden';
+        } else {
+          document.querySelector('html').removeAttribute('style');
+        }
+      }
 
     const { children, data } = this.props; 
     return (
