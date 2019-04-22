@@ -23,7 +23,7 @@ const SectionFour = props => (
                   <div className="testimonial-row">
                     <div className="testimonial-image">
                       <div className="content">
-                        <img src={props.childTwoTestimonialImage} />
+                        <img alt="netlify-analytics-dashboard" src={props.childTwoTestimonialImage} />
                       </div>
                     </div>
                     <div className="testimonial-description">
@@ -44,7 +44,7 @@ const SectionFour = props => (
               <div className="row">
                 <div className="col-lg-6 order-lg-2">
                   <div className="image-box">
-                    <img src={props.childThreeImage} />
+                    <img alt="netlify-analytics-dashboard" src={props.childThreeImage} />
                   </div>
                 </div>
                 <div className="col-lg-6 order-lg-1">

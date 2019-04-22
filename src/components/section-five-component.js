@@ -14,7 +14,7 @@ const SectionFive = props => (
               </div>
               <div className="col-lg-6 order-lg-1">
                 <div className="image-box text-md-center">
-                  <img src={props.image} />
+                  <img alt="netlify-analytics" src={props.image} />
                 </div>
               </div>
             </div>
