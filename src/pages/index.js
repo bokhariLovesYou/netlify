@@ -16,6 +16,8 @@ import SectionSix from "../components/section-six-component.js"
 import SectionSeven from "../components/section-seven-component.js"
 // GraphQL
 import { graphql } from 'gatsby'
+// GA Tracking
+import ReactGA from 'react-ga'
 
 class IndexPage extends Component {
 
@@ -37,24 +39,43 @@ class IndexPage extends Component {
         paragraphTwo: 'Global distribution with automated prerendering makes for blazing fast site delivery. Smashing Magazine moved to Netlify for a 10x boost in performance.',
         svgTwo: <IconFourSVG />
       }
-    ],
-    articleObj: [
-      {
-        heading: 'Your favorite generator & tools',
-        desc:'Netlify Dev automatically detects common tools like Gatsby, Hugo, Jekyll, React Static, Eleventy, and more, providing a zero-config setup for your local dev server.'
-      },
-      {
-        heading: 'WASM edge logic engine',
-        desc:'We’ve faithfully replicated our powerful edge logic engine in WebAssembly so you can locally test all the same rules before deploying them to our global infrastructure.'
-      },
-      {
-        heading: 'Zip & ship functions',
-        desc:'Write cloud functions in modern javascript, adding needed dependencies. Netlify will compile your functions as AWS Lambdas and deploy them as full API endpoints. Local testing works too!'
-      }
-    ]
+    ]  
   }
 
+loggerHeroCTA = () => {
+  ReactGA.event({
+      category: 'button',
+      action: 'click'
+    })
+}
+
+ loggerDocsCTA = () => {
+  ReactGA.event({
+      category: 'docsButton',
+      action: 'click'
+    })
+ } 
+
+ loggerSubFooterCTA = () => {
+  ReactGA.event({
+      category: 'subFooterButton',
+      action: 'click'
+    })
+ } 
+
   render () {
+
+  if (typeof window !== 'undefined') {
+    window.onscroll = function(ev) {
+        if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+            ReactGA.event({
+                category: 'pageScrolled',
+                action: 'scrolled'
+              })
+        }
+    };
+  }
+
   const data = this.props.data.allDataYaml.edges[0].node;   
   return (
       <Layout>
@@ -65,6 +86,7 @@ class IndexPage extends Component {
             paragraph={data.hero_paragraph}
             buttonText={data.hero_button_text}
             buttonURL={data.hero_button_url}
+            buttonClick={this.loggerHeroCTA}
           />
           <SectionTwo 
             heading={data.section_two_heading}
@@ -88,7 +110,8 @@ class IndexPage extends Component {
               childTwoTestimonialTwitterHandle={'@kentcdodds'}
               childThreeHeading={data.section_four_child_three_heading}
               childThreeImage={data.section_four_child_three_image}
-              articleObj={this.state.articleObj}
+              articleObj={data.articleObj}
+              docsClick={this.loggerDocsCTA}
             />
             <SectionFive
               headingBefore={data.section_five_heading_before}
@@ -101,7 +124,9 @@ class IndexPage extends Component {
               heading={data.section_six_heading}
               paragraph={data.section_six_paragraph}
             />
-            <SectionSeven />
+            <SectionSeven
+              subFooterCTA={this.loggerSubFooterCTA}
+            />
           </section>
         </main>
       </Layout>
@@ -138,6 +163,18 @@ export const query = graphql`
             section_five_image
             section_six_heading
             section_six_paragraph
+            articleObj {
+              heading
+              desc
+            }
+            columnObj {
+              headingOne
+              paragraphOne
+              svgOne
+              headingTwo
+              paragraphTwo
+              svgTwo
+            }
           }
         }
       }

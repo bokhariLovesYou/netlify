@@ -11,7 +11,7 @@ const HeroComponent = props => (
           <div class="content content-box">
             <h1 className="inverse">{props.heading}</h1>
             <p>{props.paragraph}</p>
-            <a href={props.buttonURL}><button className="global-button">{props.buttonText}</button></a>
+            <a onClick={props.buttonClick} href={props.buttonURL}><button className="global-button">{props.buttonText}</button></a>
           </div>
         </div>
       </section>

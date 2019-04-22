@@ -22,3 +22,27 @@ section-five-paragraph: No other service allows you to write and manage everythi
 section-five-image: https://i.pinimg.com/originals/58/f5/7b/58f57b4232cd9369d446ed35f3024fb9.png
 section-six-heading: Analytics is just the beginning
 section-six-paragraph: 'Next, explore Netlify Build: Power collaboration through Netlify’s Git-based workflow with Deploy Previews, branch testing, and more.'
+
+articleObj: 
+  - heading: Your favorite generator & tools
+    desc: Netlify Dev automatically detects common tools like Gatsby, Hugo, Jekyll, React Static, Eleventy, and more, providing a zero-config setup for your local dev server.
+  - heading: WASM edge logic engine
+    desc: We’ve faithfully replicated our powerful edge logic engine in WebAssembly so you can locally test all the same rules before deploying them to our global infrastructure.
+  - heading: Zip & ship functions
+    desc: Write cloud functions in modern javascript, adding needed dependencies. Netlify will compile your functions as AWS Lambdas and deploy them as full API endpoints. Local testing works too!
+
+columnObj: 
+  - headingOne: Faster sites & applications
+    paragraphOne: Global distribution with automated prerendering makes for blazing fast site delivery. Smashing Magazine moved to Netlify for a 10x boost in performance.
+    svgOne: <IconOneSVG />
+    headingTwo: Faster sites & applications
+    paragraphTwo: Global distribution with automated prerendering makes for blazing fast site delivery. Smashing Magazine moved to Netlify for a 10x boost in performance.
+    svgTwo: <IconTwoSVG />
+  - headingOne: Faster sites & applications
+    paragraphOne: Global distribution with automated prerendering makes for blazing fast site delivery. Smashing Magazine moved to Netlify for a 10x boost in performance.
+    svgOne: <IconThreeSVG />
+    headingTwo: Faster sites & applications
+    paragraphTwo: Global distribution with automated prerendering makes for blazing fast site delivery. Smashing Magazine moved to Netlify for a 10x boost in performance.
+    svgTwo: <IconFourSVG />
+
+

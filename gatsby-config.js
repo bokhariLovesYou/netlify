@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Netlify Analytics | Netlify`,
     description: `Run your entire platform right on your laptop. Preview it all – site generation, analytics, functions, and edge logic.`,
-    author: `@gatsbyjs`,
+    author: `@parasbokhari`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -39,7 +39,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon-32x32.png`, // This path is relative to the root of the site.
       },
     },
     {
@@ -48,6 +48,12 @@ module.exports = {
         rule: {
           include: /images/
         }
+      }
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-138752200-1",
       }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality

@@ -1,20 +1,19 @@
 /**
  * Layout component that queries for data
  * with Gatsby's StaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/static-query/
  */
 
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
-
 import Header from "./header"
 import Footer from "./footer.js"
 import "./stylesheets/layout.css"
 import "./stylesheets/normalize.css"
 import 'bootstrap/dist/css/bootstrap.css'
 import "./stylesheets/style.css"
+// GA Tracking
+import ReactGA from 'react-ga'
 
 
 class Layout extends React.Component {
@@ -27,11 +26,17 @@ class Layout extends React.Component {
     ]
   }
 
+
+
   toggleMenu = () => {
     if (this.state.header[0].modalClass === 'not-active') {
       this.setState (prevState => ({
         modalClass: prevState.header[0].modalClass = 'active'
       }));
+      ReactGA.event({
+          category: 'menuButton',
+          action: 'click'
+        })
     } else if (this.state.header[0].modalClass === 'active') {
       this.setState (prevState => ({
         modalClass: prevState.header[0].modalClass = 'not-active'
@@ -44,6 +49,10 @@ class Layout extends React.Component {
       this.setState (prevState => ({
         searchClass: prevState.header[0].searchClass = 'active'
       }));
+      ReactGA.event({
+          category: 'searchButton',
+          action: 'click'
+        })
     } else if (this.state.header[0].searchClass === 'active') {
       this.setState (prevState => ({
         searchClass: prevState.header[0].searchClass = 'not-active'
