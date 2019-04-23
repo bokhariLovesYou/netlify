@@ -5,10 +5,17 @@ const TwoColumnImageDrop = props => (
     <div className="row">
       <div className="col-lg-6 order-lg-2">
         <div className="content content-box">
-          <h2 className="inverse">{props.headingBefore}<br />{props.headingAfter}</h2>
-          <p>{props.subTitle}
-          <br /><br />
-          {props.paragraph}</p>
+          <h2 className="inverse">
+            {props.headingBefore}
+            <br />
+            {props.headingAfter}
+          </h2>
+          <p>
+            {props.subTitle}
+            <br />
+            <br />
+            {props.paragraph}
+          </p>
         </div>
       </div>
       <div className="col-lg-6 order-lg-1">

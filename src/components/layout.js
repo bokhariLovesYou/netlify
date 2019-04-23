@@ -10,67 +10,66 @@ import Header from "./header"
 import Footer from "./footer.js"
 import "./stylesheets/layout.css"
 import "./stylesheets/normalize.css"
-import 'bootstrap/dist/css/bootstrap.css'
+import "bootstrap/dist/css/bootstrap.css"
 import "./stylesheets/style.css"
 // GA Tracking
-import ReactGA from 'react-ga'
-
+import ReactGA from "react-ga"
 
 class Layout extends React.Component {
   state = {
     header: [
       {
-        modalClass: 'not-active',
-        searchClass: 'not-active'
-      }
-    ]
+        modalClass: "not-active",
+        searchClass: "not-active",
+      },
+    ],
   }
 
-
-
   toggleMenu = () => {
-    if (this.state.header[0].modalClass === 'not-active') {
-      this.setState (prevState => ({
-        modalClass: prevState.header[0].modalClass = 'active'
-      }));
+    if (this.state.header[0].modalClass === "not-active") {
+      this.setState(prevState => ({
+        modalClass: (prevState.header[0].modalClass = "active"),
+      }))
       ReactGA.event({
-          category: 'menuButton',
-          action: 'click'
-        })
-    } else if (this.state.header[0].modalClass === 'active') {
-      this.setState (prevState => ({
-        modalClass: prevState.header[0].modalClass = 'not-active'
-      }));
+        category: "menuButton",
+        action: "click",
+      })
+    } else if (this.state.header[0].modalClass === "active") {
+      this.setState(prevState => ({
+        modalClass: (prevState.header[0].modalClass = "not-active"),
+      }))
     }
   }
 
   toggleSearch = () => {
-    if (this.state.header[0].searchClass === 'not-active') {
-      this.setState (prevState => ({
-        searchClass: prevState.header[0].searchClass = 'active'
-      }));
+    if (this.state.header[0].searchClass === "not-active") {
+      this.setState(prevState => ({
+        searchClass: (prevState.header[0].searchClass = "active"),
+      }))
       ReactGA.event({
-          category: 'searchButton',
-          action: 'click'
-        })
-    } else if (this.state.header[0].searchClass === 'active') {
-      this.setState (prevState => ({
-        searchClass: prevState.header[0].searchClass = 'not-active'
-      }));
+        category: "searchButton",
+        action: "click",
+      })
+    } else if (this.state.header[0].searchClass === "active") {
+      this.setState(prevState => ({
+        searchClass: (prevState.header[0].searchClass = "not-active"),
+      }))
     }
   }
 
   render() {
-
-      if (typeof window !== 'undefined') {
-        if (this.state.header[0].searchClass === 'active' || this.state.header[0].modalClass === 'active') {
-          document.querySelector('html').style.overflow = 'hidden';
-        } else {
-          document.querySelector('html').removeAttribute('style');
-        }
+    if (typeof window !== "undefined") {
+      if (
+        this.state.header[0].searchClass === "active" ||
+        this.state.header[0].modalClass === "active"
+      ) {
+        document.querySelector("html").style.overflow = "hidden"
+      } else {
+        document.querySelector("html").removeAttribute("style")
       }
+    }
 
-    const { children, data } = this.props; 
+    const { children, data } = this.props
     return (
       <StaticQuery
         query={graphql`
@@ -84,18 +83,18 @@ class Layout extends React.Component {
         `}
         render={data => (
           <>
-            <Header 
-            siteTitle={data.site.siteMetadata.title}
-            toggleMenu={this.toggleMenu}
-            toggleSearch={this.toggleSearch}
-             />
-              {children}
-              <Footer 
-            modalClass={this.state.header[0].modalClass}
-            searchClass={this.state.header[0].searchClass}
-            toggleMenu={this.toggleMenu}
-            toggleSearch={this.toggleSearch}
-              />
+            <Header
+              siteTitle={data.site.siteMetadata.title}
+              toggleMenu={this.toggleMenu}
+              toggleSearch={this.toggleSearch}
+            />
+            {children}
+            <Footer
+              modalClass={this.state.header[0].modalClass}
+              searchClass={this.state.header[0].searchClass}
+              toggleMenu={this.toggleMenu}
+              toggleSearch={this.toggleSearch}
+            />
           </>
         )}
       />
