@@ -63,7 +63,7 @@ class IndexPage extends Component {
 
   render() {
     if (typeof window !== "undefined") {
-      window.onscroll = function(ev) {
+      window.onscroll = ev => {
         if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
           ReactGA.event({
             category: "pageScrolled",
@@ -77,7 +77,7 @@ class IndexPage extends Component {
     return (
       <Layout>
         <SEO
-          title="Netlify Analytics | Netlify"
+          title="Netlify Analytics"
           description="Run your entire platform right on your laptop. Preview it all – site generation, analytics, functions, and edge logic."
           keywords={[`Netlify`, `application`, `data`]}
         />

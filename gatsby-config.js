@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Netlify Analytics | Netlify`,
-    description: `Run your entire platform right on your laptop. Preview it all – site generation, analytics, functions, and edge logic.`,
+    title: ` | Netlify`,
+    description: ` - Netlify`,
     author: `@parasbokhari`,
   },
   plugins: [
