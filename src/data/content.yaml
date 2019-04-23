@@ -45,4 +45,6 @@ columnObj:
     paragraphTwo: Global distribution with automated prerendering makes for blazing fast site delivery. Smashing Magazine moved to Netlify for a 10x boost in performance.
     svgTwo: <IconFourSVG />
 
+global-cta-heading: Get started with Netlify
+global-cta-paragraph: Netlify's Enterprise ADN is trusted by Citrix, Verizon, Peloton, Atlassian, Samsung, and more.
 
