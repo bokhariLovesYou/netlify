@@ -13,7 +13,7 @@ Netlify were to build a new product called Netlify Analytics. To successfully ma
 
 https://lucid-rosalind-dc4a94.netlify.com/
 
-A web page which directly speaks to the user. Something a user can, on the intial page load, can connect to and tell it's a product from Netlify. 
+A web page which directly speaks to the user. Something a user can, on the intial page load, connect to and tell it's a product from Netlify. 
 
 ## Storytelling
 The idea behind this product page was simple. To keep the originality and the aesthetics which Netlify provides to the web. I wanted to communicate to the user directly that this is a webpage from Netlify. Thus, the key focuses were:
