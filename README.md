@@ -18,8 +18,8 @@ A web page which directly speaks to the user. Something a user can, on the intia
 ## Storytelling
 The idea behind this product page was simple. To keep the originality and the aesthetics which Netlify provides to the web. I wanted to communicate to the user directly that this is a webpage from Netlify. Thus, the key focuses were:
 
-a.) Performance
-b.) Branding
+a.) Performance<br>
+b.) Branding<br>
 c.) The Development Experience, which helps us to keep the page scalable, and development friendly.
 
 - Section One
