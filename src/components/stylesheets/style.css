@@ -820,6 +820,11 @@ a.logo-url:hover {
     }
 }
 
+@media (min-width: 480px) and (max-width: 768px) {
+    #analytics-page .section--after-curve {
+        padding-top: 9rem;
+    }
+}
 
 
 @media (min-width: 520px) {
