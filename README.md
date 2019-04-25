@@ -1,97 +1,84 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby's default starter
-</h1>
+## Netlify Analytics
+A simple webpage which advertises Netlify Analytics. A tool which helps get site owners a deeper understanding of their customers and visitors.
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+## Problem
+Netlify were to build a new product called Netlify Analytics. To successfully market that product, Netlify will need a product page to communicate the product’s virtues and convert visitors into sign-ups.
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+- Build a performant experience (Performance is one of the pillars of Netlify’s brand)
+- Use React, Netlify and JAMstack technologies to build the experience
+- Focus on user experience to ensure the page connects to the overall website
+- Have an effective conversion flow for user sign-ups
 
-## 🚀 Quick start
+## Solution
 
-1.  **Create a Gatsby site.**
+https://lucid-rosalind-dc4a94.netlify.com/
 
-    Use the Gatsby CLI to create a new site, specifying the default starter.
+A web page which directly speaks to the user. Something a user can, on the intial page load, can connect to and tell it's a product from Netlify. 
 
-    ```sh
-    # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
-    ```
+## Storytelling
+The idea behind this product page was simple. To keep the originality and the aesthetics which Netlify provides to the web. I wanted to communicate to the user directly that this is a webpage from Netlify. Thus, the key focuses were:
 
-1.  **Start developing.**
+a.) Performance
+b.) Branding
+c.) The Development Experience, which helps us to keep the page scalable, and development friendly.
 
-    Navigate into your new site’s directory and start it up.
+- Section One
+The first section uses the 'fancy curves' which keeps the branding of the Company, so that the user can detect this page comes from Netlify without looking at the logo. Keeping Text on the left with a CTA so that it's approachable for users which come to the page for 'direct information'.
 
-    ```sh
-    cd my-default-starter/
-    gatsby develop
-    ```
+- Section Two
+Speaks about the core features of the product, letting the user know what they can achieve with it. Using the nicely designed SVGs from Netlify keeps the branding in place. A tighter wrapper with nested content helps us to maintain the attention of the user as they read on the benefits.
 
-1.  **Open the source code and start editing!**
+- Section Three
+introduces the curvy backgrounds again, where we introduce a small text block with the Docs, so that a user who wishes to research can easily find the information they were looking for. Next comes a testimonial, which can motivate the user to be transformed into a lead. 
 
-    Your site is now running at `http://localhost:8000`!
+The spotlight on the right, starting from the very top of the section falls on the dummy screenshot of the web app. The idea was to 'intrigue' the user, and let them know that something 'fancy' or 'important' is at the bottom. This makes our product gain the importance. To the left of the screenshot, we talk more about the product and what it can achieve.
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
+- Section Four
+The idea for this section was to use lesser words to create curiosity for the user, explaining what Netlify does is not done by another company, and how effectively they are changing the web for good. A curious user wants to learn more, which can convert them into a lead and eventually a customer.
 
-    Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+- Section Five
+The main focus for this section was to tell the user about some of the other products as well. This section can help the user to learn more about the company, what it does, it features, and navigate through different areas of the site.
 
-## 🧐 What's inside?
+- Section Six is the closing section of the page, introducing the Sign Up CTA back again. I didn't want an interested user to scroll back up in order to sign up for the app, and break the experience they were getting. This CTA, ideally, should be the one which should bring in conversions which have more value than the others. 
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+I kept the header, the footer, menu's toggler/modal as well as the search toggler/modal the same as Netlify's - as I wanted this page to look part of the same website. 
 
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
+## JAMSTACK
+The technologies used to build this page were JavaScript, React, Gatsby, GraphQL, Netlify. 
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+## Architecture
+The development architecture was built keeping in mind that this page stays scalable as well as easier for the other developers to work on. The repo consists of a folder Src, which has different subfolders like pages, images, data and components. 
 
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+The components sub-folder has all the reusable components which makes this webpage scalable. It also has the stylesheet used for this webpage. I compiled the components used on this webpage into a single file called index.js and imported it as an object.
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+The images folder consists of the SVGs which are being imported time to time.
 
-4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+The pages consists of the webpages, currently a 404 as well as an index.js file which is the main page.
 
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+Data comes from the Yaml file which is inside the folder called 'data'
 
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
+## Performance
 
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+The main focus for this page was to be performant efficient. That is why it was built using React and Gatsby, and hosted on Netlify. I wanted to lazyload the images, however I was unsure if I should as Netlify's website (to my knowledge) wasn't lazyloading images. Apart from that, the two images were scaled down to 60 to 70 kbs respectively. We could've had saved 20 kbs on each, however I didn't wish to pixelate an image and disrupt the experience the user could've had with the page.
 
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+## Conversion Flow
 
-9.  **`LICENSE`**: Gatsby is licensed under the MIT license.
+All the buttons on this product page are being tracked as custom events in Google Analytis which lets us collect data from the users and build effective strategies upon their behavior and interaction with this page. We are also tracking scroll events, in order to determine if a user clicks the very last CTA after they have fully scrolled the page. The Menu toggler as well as the search toggler tells us about users' interest to the company - therefore, we're tracking them as well. This webpage was built using Gatsby, which renders data on the server side, helping SEO.
 
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+https://i.imgur.com/DcSk6qV.png
 
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+## Summary
+To summarize, this page aims to speak to the user 'as Netlify'. It wants to provide the user with an experience so that they feel as if they're directly communicating to the company. From the top to the bottom, I wished to provide an experience which is hard to get interrupted. 
 
-12. **`README.md`**: A text file containing useful reference information about your project.
+Thank you so much for reading this,
+Paras. 
 
-## 🎓 Learning Gatsby
+--
 
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
+## Production
 
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+Please View the website at https://lucid-rosalind-dc4a94.netlify.com/.
 
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+## GraphQL
 
-## 💫 Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
-
-<!-- AUTO-GENERATED-CONTENT:END -->
+Please Once up and running, explore the site's data and schema at <http://localhost:8000/___graphql>.
