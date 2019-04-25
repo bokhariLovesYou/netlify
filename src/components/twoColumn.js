@@ -13,10 +13,10 @@ class TwoColumn extends React.Component {
         <div className="row">
           <div className="col-lg-6 order-lg-2">
             <div className="image-box">
-              <img
-                alt="netlify-analytics-dashboard"
-                src={this.props.childThreeImage}
-              />
+                <img
+                  alt="netlify-analytics-dashboard"
+                  src={this.props.childThreeImage}
+                />
             </div>
           </div>
           <div className="col-lg-6 order-lg-1">

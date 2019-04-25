@@ -1,49 +1,45 @@
 hero-heading: Netlify Analytics
-hero-paragraph: A new type of application delivery network custom designed for blazing fast sites and modern workflows.
+hero-paragraph: Get a deeper understanding of your customers and visitors. Use the tools you need to analyze data.
 hero-button-text: Get started for free
 hero-button-url: https://app.netlify.com/signup
-section-two-heading: Global by default. Multi‑cloud by design.
+section-two-heading: Global by default. Powerful by design.
 section-two-subtitle: A global platform with powerful features for managing code and assets.
-section-two-paragraph: Distributed just like a CDN, but with advanced functionality for publishing entire sites and applications. Automate builds to prerender content and deploy worldwide to every major cloud provider—including staging, rollbacks, and even A/B testing.
+section-two-paragraph: Managable to its best, and with advanced functionality for reading statistical data for entire sites and applications. Automate statistical data and develop marketing strategies for worldwide audience. See how users interact with your website, track automated events—including pageviews, and even A/B testing.
 section-four-child-one-heading-before: The one dev server
 section-four-child-one-heading-after: that powers it all
-section-four-child-one-paragraph: Imagine the productivity boost of being able to locally test your site generator, API integrations, serverless functions, and edge rules, all in a single development server.
+section-four-child-one-paragraph: Imagine the productivity boost of being able to locally test your site generator, API integrations, serverless functions, and data analytics, all in a single development server.
 section-four-child-one-cta-text: Get started in the docs
 section-four-child-one-cta-url: https://app.netlify.com/signup
-section-four-child-two-testimonial: Decoupled web projects involve so many components. The hard part is testing all the pieces locally, together. Netlify Dev delivers this beautifully with one command.
-section-four-child-two-testimonial-image: https://cdn.netlify.com/d8adea775b72d67ebb65fc1470da562cd51ba481/a718f/img/v2/avatars/kent-c-dodds.jpg
+section-four-child-two-testimonial: Netlify Analytics helped us optimize our art marketplace, resulting in 400% year-over-year revenue growth for our art business. Analytics made us understand what our customers wanted.
+section-four-child-two-testimonial-image: kent-c-dodds.jpg
 section-four-child-two-testimonial-name: Kent C. Dodds
 section-four-child-three-heading: Be instantly productive
-section-four-child-three-image: https://i.pinimg.com/originals/c3/9b/57/c39b5749ff0e9bb01c07a1af3a10b2af.png
+section-four-child-three-image: netlify-app-two.jpg
 section-five-heading-before: Test it all together.
 section-five-heading-after: Deploy it all together
-section-five-subheading: Frontend builds. Serverless code. Edge routing logic
-section-five-paragraph: No other service allows you to write and manage everything from a single repository. Version control it together. Test, version control, and deploy it all together.
-section-five-image: https://i.pinimg.com/originals/58/f5/7b/58f57b4232cd9369d446ed35f3024fb9.png
+section-five-subheading: Frontend builds. Serverless code. Super data analysis
+section-five-paragraph: No other service allows you to write and manage everything from a single platform. Test, version control, deploy and get statistical data all together. At one place.
+section-five-image: netlify-app.jpg
 section-six-heading: Analytics is just the beginning
 section-six-paragraph: 'Next, explore Netlify Build: Power collaboration through Netlify’s Git-based workflow with Deploy Previews, branch testing, and more.'
 
 articleObj: 
-  - heading: Your favorite generator & tools
-    desc: Netlify Dev automatically detects common tools like Gatsby, Hugo, Jekyll, React Static, Eleventy, and more, providing a zero-config setup for your local dev server.
-  - heading: WASM edge logic engine
-    desc: We’ve faithfully replicated our powerful edge logic engine in WebAssembly so you can locally test all the same rules before deploying them to our global infrastructure.
-  - heading: Zip & ship functions
-    desc: Write cloud functions in modern javascript, adding needed dependencies. Netlify will compile your functions as AWS Lambdas and deploy them as full API endpoints. Local testing works too!
+  - heading: The finer points & tools
+    desc: Get fast answers to questions about your analytics data, uncover insights about how your business is performing, and tap into sophisticated modeling capabilities.
+  - heading: Data analysis and visualization
+    desc: We’ve faithfully replicated our powerful edge logic engine in Analytics. Analytics provides many ways to access, organize, and visualize your data to suit your business needs.
+  - heading: Zip & ship access
+    desc: Access your data anywhere. In addition to our web application, we provide email alerts, an external reporting API, and integrations to multiple Netlify products. Keep the calm because it's a never ending story!
 
 columnObj: 
-  - headingOne: Faster sites & applications
+  - headingOne: Provides instant feedback
     paragraphOne: Global distribution with automated prerendering makes for blazing fast site delivery. Smashing Magazine moved to Netlify for a 10x boost in performance.
-    svgOne: <IconOneSVG />
-    headingTwo: Faster sites & applications
-    paragraphTwo: Global distribution with automated prerendering makes for blazing fast site delivery. Smashing Magazine moved to Netlify for a 10x boost in performance.
-    svgTwo: <IconTwoSVG />
-  - headingOne: Faster sites & applications
-    paragraphOne: Global distribution with automated prerendering makes for blazing fast site delivery. Smashing Magazine moved to Netlify for a 10x boost in performance.
-    svgOne: <IconThreeSVG />
-    headingTwo: Faster sites & applications
-    paragraphTwo: Global distribution with automated prerendering makes for blazing fast site delivery. Smashing Magazine moved to Netlify for a 10x boost in performance.
-    svgTwo: <IconFourSVG />
+    headingTwo: Get powerful insights
+    paragraphTwo: Access Netlify Analytics unique insights and machine learning capabilities to help get the most out of your data. Whereas we make sure it's safe.
+    headingThree: Understand user behavior
+    paragraphThree: Understand your site and app users to better evaluate the performance of your marketing, content, products, and more. Analytics is built to make you succeed.
+    headingFour: An interface for you
+    paragraphFour: Process and share your data quickly with an easy-to-use interface and shareable reports. Get all the tools you need to deploy, manage and run your site.
 
 global-cta-heading: Get started with Netlify
 global-cta-paragraph: Netlify's Enterprise ADN is trusted by Citrix, Verizon, Peloton, Atlassian, Samsung, and more.

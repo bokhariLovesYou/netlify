@@ -69,7 +69,7 @@ class Layout extends React.Component {
       }
     }
 
-    const { children, data } = this.props
+    const { children } = this.props
     return (
       <StaticQuery
         query={graphql`
@@ -94,6 +94,7 @@ class Layout extends React.Component {
               searchClass={this.state.header[0].searchClass}
               toggleMenu={this.toggleMenu}
               toggleSearch={this.toggleSearch}
+              customClass='gradient'
             />
           </>
         )}

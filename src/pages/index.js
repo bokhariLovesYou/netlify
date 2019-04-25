@@ -1,58 +1,32 @@
 import React, { Component } from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-// Icons
-import IconOneSVG from "../images/icon-one.svg"
-import IconTwoSVG from "../images/icon-two.svg"
-import IconThreeSVG from "../images/icon-three.svg"
-import IconFourSVG from "../images/icon-four.svg"
+// import AppImage from "../images/netlify-app.jpg"
 // Components
-import Section from "../components/section.js"
-import CurvyLargeBanner from "../components/curvyLargeBanner.js"
-import ContentWithCTA from "../components/contentWithCTA.js"
-import CenteredContent from "../components/centeredContent.js"
-import RepeatedInverseColumns from "../components/repeated-columns-component.js"
-import TightHeading from "../components/tight-heading.js"
-import SolidCurvySVGWrapped from "../components/solidCurvySVGWrapped.js"
-import Wrap from "../components/wrap.js"
-import ContentWithTextLink from "../components/contentWithTextLink.js"
-import TestimonialCard from "../components/testimonialCard.js"
-import TwoColumn from "../components/twoColumn.js"
-import RepeatedArticle from "../components/repeated-article.js"
-import TwoColumnImageDrop from "../components/twoColumnImageDrop.js"
-import TitleAndDesc from "../components/titleAndDesc.js"
-import SimilarProducts from "../components/similarProducts.js"
-import CenteredCallOut from "../components/centeredCallOut.js"
+import {
+  Section,
+  CurvyLargeBanner,
+  ContentWithCTA,
+  CenteredContent,
+  TightHeading,
+  SolidCurvySVGWrapped,
+  Wrap,
+  ContentWithTextLink,
+  RepeatedInverseColumns,
+  TestimonialCard,
+  TwoColumn,
+  RepeatedArticle,
+  TwoColumnImageDrop,
+  TitleAndDesc,
+  SimilarProducts,
+  CenteredCallOut,
+} from '../components';
 // GraphQL
 import { graphql } from "gatsby"
 // GA Tracking
 import ReactGA from "react-ga"
 
 class IndexPage extends Component {
-  state = {
-    columnObj: [
-      {
-        headingOne: "Faster sites & applications",
-        paragraphOne:
-          "Global distribution with automated prerendering makes for blazing fast site delivery. Smashing Magazine moved to Netlify for a 10x boost in performance.",
-        svgOne: <IconOneSVG />,
-        headingTwo: "Faster sites & applications",
-        paragraphTwo:
-          "Global distribution with automated prerendering makes for blazing fast site delivery. Smashing Magazine moved to Netlify for a 10x boost in performance.",
-        svgTwo: <IconTwoSVG />,
-      },
-      {
-        headingOne: "Faster sites & applications",
-        paragraphOne:
-          "Global distribution with automated prerendering makes for blazing fast site delivery. Smashing Magazine moved to Netlify for a 10x boost in performance.",
-        svgOne: <IconThreeSVG />,
-        headingTwo: "Faster sites & applications",
-        paragraphTwo:
-          "Global distribution with automated prerendering makes for blazing fast site delivery. Smashing Magazine moved to Netlify for a 10x boost in performance.",
-        svgTwo: <IconFourSVG />,
-      },
-    ],
-  }
 
   logger = elem => {
     ReactGA.event({
@@ -62,13 +36,17 @@ class IndexPage extends Component {
   }
 
   render() {
+    let counter = 0;
     if (typeof window !== "undefined") {
       window.onscroll = ev => {
         if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
-          ReactGA.event({
-            category: "pageScrolled",
-            action: "scrolled",
-          })
+          if (counter < 1) {
+            ReactGA.event({
+              category: "pageScrolled",
+              action: "scrolled",
+            })
+            counter++;
+          }
         }
       }
     }
@@ -106,17 +84,16 @@ class IndexPage extends Component {
 
           <Section count="three" extraClass="content-section">
             <TightHeading heading="The benefits of Netlify Analytics" />
-            {this.state.columnObj.map((elem, index) => (
               <RepeatedInverseColumns
-                key={index}
-                headingOne={elem.headingOne}
-                paragraphOne={elem.paragraphOne}
-                svgOne={elem.svgOne}
-                headingTwo={elem.headingTwo}
-                paragraphTwo={elem.paragraphTwo}
-                svgTwo={elem.svgTwo}
+                headingOne={data.columnObj[0].headingOne}
+                paragraphOne={data.columnObj[0].paragraphOne}
+                headingTwo={data.columnObj[0].headingTwo}
+                paragraphTwo={data.columnObj[0].paragraphTwo}
+                headingThree={data.columnObj[0].headingThree}
+                paragraphThree={data.columnObj[0].paragraphThree}
+                headingFour={data.columnObj[0].headingFour}
+                paragraphFour={data.columnObj[0].paragraphFour}
               />
-            ))}
           </Section>
 
           <section className="curvy-parent">
@@ -230,10 +207,12 @@ export const query = graphql`
           columnObj {
             headingOne
             paragraphOne
-            svgOne
             headingTwo
             paragraphTwo
-            svgTwo
+            headingThree
+            paragraphThree
+            headingFour
+            paragraphFour
           }
           global_cta_heading
           global_cta_paragraph

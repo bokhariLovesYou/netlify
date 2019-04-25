@@ -1,9 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import NetlifyLogo from "../images/netlify.svg"
 import IconSearch from "../images/icon-search.svg"
-import IconClose from "../images/icon-close.svg"
 
 const Header = props => (
   <header>
@@ -12,7 +10,7 @@ const Header = props => (
         <div className="header-inner">
           <div className="nav-parent-left">
             <div className="logo-box">
-              <Link className="logo-url" to="https://www.netlify.com/">
+              <a className="logo-url" href="https://www.netlify.com/">
                 <svg
                   id="logotype"
                   viewBox="0 0 148 40"
@@ -42,27 +40,27 @@ const Header = props => (
                     />
                   </g>
                 </svg>
-              </Link>
+              </a>
             </div>
             <div className="first-navigation-column">
               <ul>
                 <li>
-                  <a href="/products" id="cta-mainNav-products">
+                  <a href="https://www.netlify.com/products" id="cta-mainNav-products">
                     Products
                   </a>
                 </li>
                 <li>
-                  <a href="/pricing" id="cta-mainNav-pricing">
+                  <a href="https://www.netlify.com/pricing" id="cta-mainNav-pricing">
                     Pricing
                   </a>
                 </li>
                 <li>
-                  <a href="/docs" id="cta-mainNav-docs">
+                  <a href="https://www.netlify.com/docs" id="cta-mainNav-docs">
                     Docs
                   </a>
                 </li>
                 <li>
-                  <a href="/blog" id="cta-mainNav-blog">
+                  <a href="https://www.netlify.com/blog" id="cta-mainNav-blog">
                     Blog
                   </a>
                 </li>
@@ -75,8 +73,8 @@ const Header = props => (
           <div className="nav-parent-right">
             <div className="second-navigation-column">
               <ul>
-                <li class="vr">
-                  <a href="/enterprise" id="cta-mainNav-sales">
+                <li className="vr">
+                  <a href="https://www.netlify.com/enterprise" id="cta-mainNav-sales">
                     Contact sales
                   </a>
                 </li>
@@ -88,7 +86,7 @@ const Header = props => (
                 <li>
                   <a
                     href="https://app.netlify.com/signup"
-                    class="cta-link highlight"
+                    className="cta-link highlight"
                     id="cta-mainNav-signup"
                   >
                     Sign up

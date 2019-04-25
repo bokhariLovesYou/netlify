@@ -64,6 +64,10 @@ a.cta-link:after {
     top: .01em;
 }
 
+.four-oh-four {
+	background: linear-gradient(to right,#4f005e,#33065b);
+}
+
 .button {
     background: #00ad9f;
     border: 0;
@@ -810,6 +814,10 @@ a.logo-url:hover {
 	.modal.active .mobile-menu-modal {
 		max-width: 90%;
 	}
+
+    #section-one .svg-wrapper {
+        top: -50em;
+    }
 }
 
 

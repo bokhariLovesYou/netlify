@@ -15,7 +15,7 @@ const TestimonialCard = props => (
             </div>
           </div>
           <div className="testimonial-description">
-            <div class="content">
+            <div className="content">
               <h6>{props.childTwoTestimonialName},</h6>
               <p>{props.childTwoTestimonialTwitterHandle}</p>
             </div>

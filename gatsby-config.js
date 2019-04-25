@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: ` | Netlify`,
+    title: `Netlify`,
     description: ` - Netlify`,
     author: `@parasbokhari`,
   },

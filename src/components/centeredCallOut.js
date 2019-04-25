@@ -9,7 +9,7 @@ const CenteredCallOut = props => (
         onClick={() => props.subFooterCTA.buttonClick("subFooterButton")}
         href="https://app.netlify.com/signup"
       >
-        <button className="global-button">Get started for free</button>
+        <button type="button" className="global-button">Get started for free</button>
       </a>
     </div>
   </div>
