@@ -22,24 +22,22 @@ a.) Performance<br>
 b.) Branding<br>
 c.) The Development Experience, which helps us to keep the page scalable, and development friendly.
 
-- Section One
+- Section One<br>
 The first section uses the 'fancy curves' which keeps the branding of the Company, so that the user can detect this page comes from Netlify without looking at the logo. Keeping Text on the left with a CTA so that it's approachable for users which come to the page for 'direct information'.
 
-- Section Two
+- Section Two<br>
 Speaks about the core features of the product, letting the user know what they can achieve with it. Using the nicely designed SVGs from Netlify keeps the branding in place. A tighter wrapper with nested content helps us to maintain the attention of the user as they read on the benefits.
 
-- Section Three
-introduces the curvy backgrounds again, where we introduce a small text block with the Docs, so that a user who wishes to research can easily find the information they were looking for. Next comes a testimonial, which can motivate the user to be transformed into a lead. 
+- Section Three<br>
+introduces the curvy backgrounds again, where we introduce a small text block with the Docs, so that a user who wishes to research can easily find the information they were looking for. Next comes a testimonial, which can motivate the user to be transformed into a lead. <br>The spotlight on the right, starting from the very top of the section falls on the dummy screenshot of the web app. The idea was to 'intrigue' the user, and let them know that something 'fancy' or 'important' is at the bottom. This makes our product gain the importance. To the left of the screenshot, we talk more about the product and what it can achieve.
 
-The spotlight on the right, starting from the very top of the section falls on the dummy screenshot of the web app. The idea was to 'intrigue' the user, and let them know that something 'fancy' or 'important' is at the bottom. This makes our product gain the importance. To the left of the screenshot, we talk more about the product and what it can achieve.
-
-- Section Four
+- Section Four<br>
 The idea for this section was to use lesser words to create curiosity for the user, explaining what Netlify does is not done by another company, and how effectively they are changing the web for good. A curious user wants to learn more, which can convert them into a lead and eventually a customer.
 
-- Section Five
+- Section Five<br>
 The main focus for this section was to tell the user about some of the other products as well. This section can help the user to learn more about the company, what it does, it features, and navigate through different areas of the site.
 
-- Section Six is the closing section of the page, introducing the Sign Up CTA back again. I didn't want an interested user to scroll back up in order to sign up for the app, and break the experience they were getting. This CTA, ideally, should be the one which should bring in conversions which have more value than the others. 
+- Section Six<br> is the closing section of the page, introducing the Sign Up CTA back again. I didn't want an interested user to scroll back up in order to sign up for the app, and break the experience they were getting. This CTA, ideally, should be the one which should bring in conversions which have more value than the others. 
 
 I kept the header, the footer, menu's toggler/modal as well as the search toggler/modal the same as Netlify's - as I wanted this page to look part of the same website. 
 
