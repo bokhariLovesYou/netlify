@@ -423,7 +423,7 @@ p.inverse {
 }
 
 .global-button {
-	background: #393E87;
+	background: #B5D73C;
     border: 0;
     border-radius: 4px;
     box-shadow: 0 0 0 1px rgba(255,255,255,.1), 0 2px 4px 0 rgba(14,30,37,.12);
@@ -1226,4 +1226,8 @@ header {
 
 .footer.inverse.section.gradient {
     display: none;
+}
+
+.section-cta, .footer.gradient {
+    background: linear-gradient(to left,#32AAEB,#11284F);
 }

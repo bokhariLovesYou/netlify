@@ -1,7 +1,7 @@
 hero-heading: OneIMS Florence
 hero-paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
 hero-button-text: Get Started
-hero-button-url: 
+hero-button-url: test
 section-two-heading: Global by default. Powerful by design.
 section-two-subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 section-two-paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -9,7 +9,7 @@ section-four-child-one-heading-before: Lorem ipsum dolor sit
 section-four-child-one-heading-after: that powers it all
 section-four-child-one-paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 section-four-child-one-cta-text: Get started in the docs
-section-four-child-one-cta-url: 
+section-four-child-one-cta-url: test
 section-four-child-two-testimonial: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 section-four-child-two-testimonial-image: kent-c-dodds.jpg
 section-four-child-two-testimonial-name: Kent C. Dodds
