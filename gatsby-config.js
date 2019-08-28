@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Netlify`,
-    description: ` - Netlify`,
+    title: `OneIMS`,
+    description: ` - OneIMS`,
     author: `@parasbokhari`,
   },
   plugins: [

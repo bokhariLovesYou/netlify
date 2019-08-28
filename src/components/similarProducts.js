@@ -6,14 +6,13 @@ const SimilarProducts = props => (
       <div className="col-lg-4 mb-3">
         <div className="content content-box">
           <div className="custom-card card--dev">
-            <h3 className="inverse">Netlify Dev</h3>
+            <h3 className="inverse">Lorem Ipsum</h3>
             <p>
-              Run our entire platform right on your laptop. Preview it all —
-              site generation, functions, and edge logic.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
             <a
               className="cta-link"
-              href="https://www.netlify.com/products/dev/"
+              href="#"
             >
               Learn More
             </a>
@@ -23,14 +22,13 @@ const SimilarProducts = props => (
       <div className="col-lg-4 mb-3 ">
         <div className="content content-box">
           <div className="custom-card card--build">
-            <h3>Netlify Build</h3>
+            <h3>Lorem Ipsum</h3>
             <p>
-              The Git workflow for web development. Build, deploy, and manage
-              modern web projects.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
             <a
               className="cta-link"
-              href="https://www.netlify.com/products/build/"
+              href="#"
             >
               Learn More
             </a>
@@ -40,14 +38,13 @@ const SimilarProducts = props => (
       <div className="col-lg-4 mb-3">
         <div className="content content-box">
           <div className="custom-card card--edge">
-            <h3>Netlify Edge</h3>
+            <h3>Lorem Ipsum</h3>
             <p>
-              A new type of application delivery network custom designed for
-              fast, responsive sites and modern workflows.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
             <a
               className="cta-link"
-              href="https://www.netlify.com/products/edge/"
+              href="#"
             >
               Learn More
             </a>

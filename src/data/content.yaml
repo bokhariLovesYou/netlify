@@ -1,46 +1,46 @@
-hero-heading: Netlify Analytics
-hero-paragraph: Get a deeper understanding of your customers and visitors. Use the tools you need to analyze data.
-hero-button-text: Get started for free
-hero-button-url: https://app.netlify.com/signup
+hero-heading: OneIMS Florence
+hero-paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+hero-button-text: Get Started
+hero-button-url: 
 section-two-heading: Global by default. Powerful by design.
-section-two-subtitle: A global platform with powerful features for managing code and assets.
-section-two-paragraph: Managable to its best, and with advanced functionality for reading statistical data for entire sites and applications. Automate statistical data and develop marketing strategies for worldwide audience. See how users interact with your website, track automated events—including pageviews, and even A/B testing.
-section-four-child-one-heading-before: The one dev server
+section-two-subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+section-two-paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+section-four-child-one-heading-before: Lorem ipsum dolor sit
 section-four-child-one-heading-after: that powers it all
-section-four-child-one-paragraph: Imagine the productivity boost of being able to locally test your site generator, API integrations, serverless functions, and data analytics, all in a single development server.
+section-four-child-one-paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 section-four-child-one-cta-text: Get started in the docs
-section-four-child-one-cta-url: https://app.netlify.com/signup
-section-four-child-two-testimonial: Netlify Analytics helped us optimize our art marketplace, resulting in 400% year-over-year revenue growth for our art business. Analytics made us understand what our customers wanted.
+section-four-child-one-cta-url: 
+section-four-child-two-testimonial: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 section-four-child-two-testimonial-image: kent-c-dodds.jpg
 section-four-child-two-testimonial-name: Kent C. Dodds
 section-four-child-three-heading: Be instantly productive
-section-four-child-three-image: netlify-app-two.jpg
-section-five-heading-before: Test it all together.
-section-five-heading-after: Deploy it all together
-section-five-subheading: Frontend builds. Serverless code. Super data analysis
-section-five-paragraph: No other service allows you to write and manage everything from a single platform. Test, version control, deploy and get statistical data all together. At one place.
-section-five-image: netlify-app.jpg
-section-six-heading: Analytics is just the beginning
-section-six-paragraph: 'Next, explore Netlify Build: Power collaboration through Netlify’s Git-based workflow with Deploy Previews, branch testing, and more.'
+section-four-child-three-image: https://dreamy-agnesi-0d7576.netlify.com/static/0d7e195477f3b47ea20e12c2c7901e11/80755/app-one.png
+section-five-heading-before: Lorem ipsum dolor.
+section-five-heading-after: Cdipiscing elit, sed do.
+section-five-subheading: Fdipiscing elit, sed do eiusmod
+section-five-paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+section-five-image: https://dreamy-agnesi-0d7576.netlify.com/static/0d7e195477f3b47ea20e12c2c7901e11/80755/app-one.png
+section-six-heading: Lorem ipsum dolor sit amet
+section-six-paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
 
 articleObj: 
   - heading: The finer points & tools
-    desc: Get fast answers to questions about your analytics data, uncover insights about how your business is performing, and tap into sophisticated modeling capabilities.
+    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
   - heading: Data analysis and visualization
-    desc: We’ve faithfully replicated our powerful edge logic engine in Analytics. Analytics provides many ways to access, organize, and visualize your data to suit your business needs.
+    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
   - heading: Zip & ship access
-    desc: Access your data anywhere. In addition to our web application, we provide email alerts, an external reporting API, and integrations to multiple Netlify products. Keep the calm because it's a never ending story!
+    desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 
 columnObj: 
   - headingOne: Provides instant feedback
-    paragraphOne: Global distribution with automated prerendering makes for blazing fast site delivery. Smashing Magazine moved to Netlify for a 10x boost in performance.
+    paragraphOne: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
     headingTwo: Get powerful insights
-    paragraphTwo: Access Netlify Analytics unique insights and machine learning capabilities to help get the most out of your data. Whereas we make sure it's safe.
+    paragraphTwo: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
     headingThree: Understand user behavior
-    paragraphThree: Understand your site and app users to better evaluate the performance of your marketing, content, products, and more. Analytics is built to make you succeed.
+    paragraphThree: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
     headingFour: An interface for you
-    paragraphFour: Process and share your data quickly with an easy-to-use interface and shareable reports. Get all the tools you need to deploy, manage and run your site.
+    paragraphFour: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 
-global-cta-heading: Get started with Netlify
-global-cta-paragraph: Netlify's Enterprise ADN is trusted by Citrix, Verizon, Peloton, Atlassian, Samsung, and more.
+global-cta-heading: Get started with OneIMS
+global-cta-paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 

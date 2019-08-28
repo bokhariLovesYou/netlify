@@ -145,7 +145,7 @@ header {
 }
 
 header .logo-box svg {
-    height: 2em;
+/*    height: 2em;*/
     margin: .618em 0;
     width: 7.4em;
 }
@@ -423,7 +423,7 @@ p.inverse {
 }
 
 .global-button {
-	background: #00ad9f;
+	background: #393E87;
     border: 0;
     border-radius: 4px;
     box-shadow: 0 0 0 1px rgba(255,255,255,.1), 0 2px 4px 0 rgba(14,30,37,.12);
@@ -1088,7 +1088,7 @@ header:after {
 }
 
 	header {
-		background: linear-gradient(to right,#4f005e,#33065b);
+		background: transparent;
 	}
 
 	header ul li a:hover,
@@ -1180,4 +1180,50 @@ header:after {
 
 @media (min-width: 1800px) {
 
+}
+
+
+header .first-navigation-column {
+    display: none !important; 
+}
+
+header {
+    opacity: 0;
+}
+
+.svg-logo-oneims {
+    width: 20rem;
+    height: 50rem;
+    position: absolute;
+    top: 3.5rem;
+    left: 5%;
+    overflow: visible;
+    display: none;
+    z-index: 2;
+    opacity: 1;
+}
+
+#section-one .content-box {
+    z-index: 3;
+}
+
+@media (min-width: 768px) {
+    .svg-logo-oneims {
+        display: block;
+    }
+}
+
+@media (min-width: 1200px) {
+#section-five .image-box {
+    height: 500px;
+}
+
+#section-five .image-box img {
+    height: 100%;
+    object-position: left;
+}
+}
+
+.footer.inverse.section.gradient {
+    display: none;
 }

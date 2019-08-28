@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3742 1688" width="3742" height="1688" aria-hidden="true">
   <defs>
     <linearGradient id="gradient-edge" x1="40.57%" x2="58.82%" y1="26.08%" y2="26.08%">
-      <stop offset="0%" stop-color="#4F005E"></stop>
-      <stop offset="100%" stop-color="#33065B"></stop>
+      <stop offset="0%" stop-color="#32AAEB"></stop>
+      <stop offset="100%" stop-color="#11284F"></stop>
     </linearGradient>
     <linearGradient id="gradient-build" x1="59%" x2="40.47%" y1="41.6%" y2="41.6%">
-      <stop offset="0%" stop-color="#210047"></stop>
-      <stop offset="100%" stop-color="#020758"></stop>
+      <stop offset="0%" stop-color="#11284F"></stop>
+      <stop offset="100%" stop-color="#32AAEB"></stop>
     </linearGradient>
     <radialGradient id="gradient-pyramid" cx="48.83%" cy="2.82%" r="143.08%" fx="48.83%" fy="2.82%" gradientTransform="matrix(.00246 .64298 -1 .00158 .52 -.29)">
       <stop offset="0%" stop-color="#00D4C5" stop-opacity=".25"></stop>
