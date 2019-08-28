@@ -1189,14 +1189,20 @@ header .first-navigation-column {
 
 header {
     opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.rell-axaz-x {
+    position: relative;
 }
 
 .svg-logo-oneims {
     width: 20rem;
     height: 50rem;
     position: absolute;
-    top: 3.5rem;
-    left: 5%;
+    top: -4rem;
+    left: 0;
     overflow: visible;
     display: none;
     z-index: 2;
